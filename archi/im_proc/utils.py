@@ -28,6 +28,7 @@ def convert_image_type(imtype="ubyte"):
     def wrapper(func):
         def wrapped(image, **kwargs):
             converter = choose_image_type(imtype)
-            return converter(image)
+            image = converter(image)
+            return func(image, **kwargs)
         return wrapped
     return wrapper

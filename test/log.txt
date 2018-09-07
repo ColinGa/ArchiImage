@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.5.3, pytest-3.3.1, py-1.5.2, pluggy-0.6.0
+rootdir: D:\DataUsr\cgachet\Desktop\Architecture traitement d'images\test, inifile:
+collected 5 items
+
+test_DataLoader.py uint8 uint8
+.Loaded : image_test_dal.png
+Loaded : image_test_dal2.png
+Loaded : image_test_dal3.png
+Loaded : image_test_dal4.png
+...uint8 uint8 uint8 uint8
+.                                                 [100%]
+
+========================== 5 passed in 1.27 seconds ===========================

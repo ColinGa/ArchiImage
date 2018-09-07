@@ -1,0 +1,15 @@
+{
+    "list_commands": [
+        {
+            "_ImageCommand__image": null,
+            "class_name": "DummyCommand",
+            "previous_state": null,
+            "param_test": null
+        },
+        {
+            "class_name": "ConvertToGrayCommand",
+            "_ImageCommand__image": null,
+            "previous_state": null
+        }
+    ]
+}
